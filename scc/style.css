@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+head, body {
+   font-family:'Barlow Condensed', sans-serif;
+}
+
+/*titulo de la pag*/
+.titulo {
+    padding: 20px 0px;
+    color: white;
+    background-color: blsck;
+    display: flex;
+    justify-content: center; /* ubicacion del texto */
+}
+.mi-texto {
+    display: flex;
+    justify-content: center;
+    padding: 6%;
+    color: white;
+    background-color: black;
+}
+.mi-texto2 {
+    display: flex;
+    justify-content: center;
+    padding: 6%;
+    color: white;
+    background-color: black;
+}
+.imagen-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/* Barra de navegacion */
+#menunav {
+    color: white;
+    background-color: black; /* Color de la barra*/
+    z-index: 100; /* El menu queda por encima de la pag */
+    width: 100%; /* Ancho total de la pag */
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+/* logo izquierdo*/ 
+.imglogo {
+     width: 9%; 
+ }
+
+/* Botones texto de navegacion*/
+ #menunav ul{
+   list-style-type: none; /* Saca circulos a la lista */
+   text-align: center; /* Alineamos el texto al circulo */
+ }
+#menunav li {
+   display: inline; /* objetos de la lista uno al lado del otro*/
+   text-align: center; /* Texto centrado */
+   margin: 1%; 
+   vertical-align: middle; /* Alinea verticalmente los LI*/
+} 
+/* Iconos Superiores*/
+.icono_superior {
+    width: 3%;
+    display: inline;
+}
+
+.ubicacion {
+    margin: 30px 20px 20px 500px
+    
+}
+
+.ubicacion2 {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:400px) {
+    body {
+        background-color: black;
+    }
+}
+
+.div {
+    display: flex;
+    text-align: center;
+}
+
+.color {
+    background-color: darkred;
+    padding-top: 0%;
+}
+
+.ubicacion3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style-type: none;
+}
+
+.redesfooter {
+    width: 3%;
+    display: inline;    
+}
+
+.container {
+    transition: all 2s;
+}
+
+
+
+.size {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 28em;
+    background-color: black;
+}

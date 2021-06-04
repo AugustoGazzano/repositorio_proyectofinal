@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+head, body {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+/*titulo de la pag*/
+.titulo {
+  padding: 20px 0px;
+  color: white;
+  background-color: blsck;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* ubicacion del texto */
+}
+
+/* Barra de navegacion */
+#menunav {
+  color: white;
+  background-color: black;
+  /* Color de la barra*/
+  z-index: 100;
+  /* El menu queda por encima de la pag */
+  width: 100%;
+  /* Ancho total de la pag */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* logo izquierdo*/
+.imglogo {
+  width: 9%;
+}
+
+/* Botones texto de navegacion*/
+#menunav ul {
+  list-style-type: none;
+  /* Saca circulos a la lista */
+  text-align: center;
+  /* Alineamos el texto al circulo */
+}
+
+#menunav li {
+  display: inline;
+  /* objetos de la lista uno al lado del otro*/
+  text-align: center;
+  /* Texto centrado */
+  margin: 1%;
+  vertical-align: middle;
+  /* Alinea verticalmente los LI*/
+}
+
+/* Iconos Superiores*/
+.icono_superior {
+  width: 3%;
+  display: inline;
+}
+
+.color {
+  background-color: darkred;
+  padding-top: 0%;
+}
+
+.mi-texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 6%;
+  color: white;
+  background-color: black;
+}
+
+.mi-texto2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 6%;
+  color: white;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
