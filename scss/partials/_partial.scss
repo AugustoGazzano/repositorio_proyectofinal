@@ -1,3 +1,9 @@
+$black: #000;
+@mixin tamanio-imagen ($width, $height: $width)
+{
+    height: $height;
+    width: $width;
+}
 /* Barra de navegacion */
 #menunav {
     color: white;
@@ -25,6 +31,13 @@
 } 
 /* Iconos Superiores*/
 .icono_superior {
-    width: 3%;
+    width: 4%;
     display: inline;
+}
+.fondo-body {
+  background-color: $black;
+}
+
+.tamanio-imagen {
+  @include tamanio-imagen(100px);
 }

@@ -58,8 +58,17 @@ head, body {
 
 /* Iconos Superiores*/
 .icono_superior {
-  width: 3%;
+  width: 4%;
   display: inline;
+}
+
+.fondo-body {
+  background-color: #000;
+}
+
+.tamanio-imagen {
+  height: 100px;
+  width: 100px;
 }
 
 .color {
@@ -68,18 +77,6 @@ head, body {
 }
 
 .mi-texto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 6%;
-  color: white;
-  background-color: black;
-}
-
-.mi-texto2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

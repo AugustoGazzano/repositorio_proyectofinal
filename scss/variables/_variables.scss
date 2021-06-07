@@ -9,10 +9,14 @@
     color: white;
     background-color: black;
 }
-.mi-texto2 {
-    display: flex;
-    justify-content: center;
-    padding: 6%;
-    color: white;
-    background-color: black;
-}
+
+$white: #fff;
+$black: #000;
+
+$colors: (
+    "white": $white,
+    "black": $black
+);
+
+
+    
