@@ -15,8 +15,12 @@ $black: #000;
 
 $colors: (
     "white": $white,
-    "black": $black
+    "black": $black,
 );
 
-
+@mixin tamanio-imagen ($width, $height: $width)
+{
+    height: $height;
+    width: $width;
+}
     

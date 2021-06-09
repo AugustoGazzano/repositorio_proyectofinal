@@ -71,6 +71,27 @@ head, body {
   width: 100px;
 }
 
+.redesfooter {
+  width: 3%;
+  display: inline;
+}
+
+.color {
+  background-color: darkred;
+  padding-top: 0%;
+}
+
+.ubicacion3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  list-style-type: none;
+}
+
 .color {
   background-color: darkred;
   padding-top: 0%;

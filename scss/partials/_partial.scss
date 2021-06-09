@@ -41,3 +41,20 @@ $black: #000;
 .tamanio-imagen {
   @include tamanio-imagen(100px);
 }
+
+.redesfooter {
+  width: 3%;
+  display: inline;    
+}
+
+.color {
+  background-color: darkred;
+  padding-top: 0%;
+}
+
+.ubicacion3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  list-style-type: none;
+}

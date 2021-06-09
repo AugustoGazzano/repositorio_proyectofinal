@@ -28,7 +28,6 @@ head, body {
 }
 /* Barra de navegacion */
 #menunav {
-    color: white;
     background-color: black; /* Color de la barra*/
     z-index: 100; /* El menu queda por encima de la pag */
     width: 100%; /* Ancho total de la pag */
@@ -111,5 +110,4 @@ head, body {
 
 .fondo {
     background-color: black;
-
 }
