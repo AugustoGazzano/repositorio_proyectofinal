@@ -17,7 +17,7 @@ head, body {
 .mi-texto {
     display: flex;
     justify-content: center;
-    padding: 6%;
+    padding: 1%;
     color: white;
 }
 
@@ -98,8 +98,6 @@ head, body {
     transition: all 2s;
 }
 
-
-
 .size {
     display: flex;
     justify-content: center;
@@ -110,4 +108,13 @@ head, body {
 
 .fondo {
     background-color: black;
+}
+
+.tamanio-imagen {
+    width: 79em;
+    height: 35em;
+}
+
+mi.mi-texto {
+    color: white;
 }
