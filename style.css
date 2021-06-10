@@ -21,6 +21,10 @@ head, body {
     color: white;
 }
 
+.mi-textodos {
+    color: white;
+}
+
 .imagen-logo {
     display: flex;
     justify-content: center;
@@ -103,7 +107,7 @@ head, body {
     justify-content: center;
     width: auto;
     height: 28em;
-    background-color: black;
+    background-color: darkred;
 }
 
 .fondo {
@@ -115,6 +119,10 @@ head, body {
     height: 35em;
 }
 
-mi.mi-texto {
-    color: white;
+.sizedos {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 28em;
+    background-color: black;
 }
