@@ -58,7 +58,7 @@ head, body {
 }
 
 .color {
-    background-color: darkred;
+    background-color: black;
     padding-top: 0%;
 }
 
@@ -104,7 +104,7 @@ head, body {
 }
 
 .contenedor-redes {
-    background-color: red;
+    background-color: #DF6767;
 }
 
 .colordos {
@@ -112,7 +112,7 @@ head, body {
 }
 
 .colortres {
-    background-color: royalblue;
+    background-color: #A03A3A;
 }
 
 .colorboton {
