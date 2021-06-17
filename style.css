@@ -30,35 +30,11 @@ head, body {
     justify-content: center;
     width: 100%;
 }
-/* Barra de navegacion */
-#menunav {
-    background-color: black; /* Color de la barra*/
-    z-index: 100; /* El menu queda por encima de la pag */
-    width: 100%; /* Ancho total de la pag */
-    font-family: Arial, Helvetica, sans-serif;
- }
 
 /* logo izquierdo*/ 
 .imglogo {
      width: 88%; 
  }
-
-/* Botones texto de navegacion*/
- #menunav ul{
-   list-style-type: none; /* Saca circulos a la lista */
-   text-align: center; /* Alineamos el texto al circulo */
- }
-#menunav li {
-   display: inline; /* objetos de la lista uno al lado del otro*/
-   text-align: center; /* Texto centrado */
-   margin: 1%; 
-   vertical-align: middle; /* Alinea verticalmente los LI*/
-} 
-/* Iconos Superiores*/
-.icono_superior {
-    width: 3%;
-    display: inline;
-}
 
 .ubicacion {
     margin: 30px 20px 20px 500px
@@ -152,4 +128,17 @@ head, body {
 .contenedorboton {
     display: flex;
     justify-content: center !important;
+}
+
+.colornav {
+    background-color: black !important;
+}
+
+.colorlist {
+color: white !important;
+}
+
+.colorboton-dos{
+    background-color: white !important;
+    border-color: white !important;   
 }
