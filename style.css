@@ -40,7 +40,7 @@ head, body {
 
 /* logo izquierdo*/ 
 .imglogo {
-     width: 9%; 
+     width: 88%; 
  }
 
 /* Botones texto de navegacion*/
@@ -125,4 +125,31 @@ head, body {
     width: auto;
     height: 28em;
     background-color: black;
+}
+
+.contenedor-redes {
+    background-color: red;
+}
+
+.colordos {
+    background-color: rosybrown;
+}
+
+.colortres {
+    background-color: royalblue;
+}
+
+.colorboton {
+    background-color: white !important;
+    border-color: red !important;   
+}
+
+.textoboton {
+    color: black !important;
+    text-decoration: none;
+}
+
+.contenedorboton {
+    display: flex;
+    justify-content: center !important;
 }
