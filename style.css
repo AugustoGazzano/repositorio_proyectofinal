@@ -22,7 +22,11 @@ head, body {
 }
 
 .mi-textodos {
-    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    color: #A03A3A;
+    text-overflow: initial;
 }
 
 .imagen-logo {
@@ -160,3 +164,7 @@ color: white !important;
   .whatsapp-icon {
     margin-top:13px;
   }
+
+.fondodiv {
+    background-color: #F7D7D7;
+}
