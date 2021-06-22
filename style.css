@@ -26,8 +26,16 @@ head, body {
     justify-content: center;
     padding: 1%;
     color: #A03A3A;
-    text-overflow: initial;
 }
+
+.mi-textotres {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    color: black;
+}
+
+
 
 .imagen-logo {
     display: flex;
@@ -168,3 +176,4 @@ color: white !important;
 .fondodiv {
     background-color: #F7D7D7;
 }
+
