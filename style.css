@@ -81,10 +81,6 @@ head, body {
     list-style-type: none;
 }
 
-.redesfooter {
-    width: 3%;
-    display: inline;    
-}
 
 .container {
     transition: all 2s;
@@ -177,3 +173,10 @@ color: white !important;
     background-color: #F7D7D7;
 }
 
+.redesfooter {
+    border-radius: 19px;
+}
+
+.fonodivdos {
+    background-color: #3F3F3F;
+}
