@@ -36,16 +36,9 @@ head, body {
 }
 
 
-
-.imagen-logo {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
 /* logo izquierdo*/ 
 .imglogo {
-     width: 88%; 
+     width: 21%; 
  }
 
 .ubicacion {
@@ -81,10 +74,6 @@ head, body {
     list-style-type: none;
 }
 
-.redesfooter {
-    width: 3%;
-    display: inline;    
-}
 
 .container {
     transition: all 2s;
@@ -116,15 +105,15 @@ head, body {
 }
 
 .contenedor-redes {
-    background-color: #DF6767;
+    background-color: #CD5C5C !important;
 }
 
 .colordos {
-    background-color: rosybrown;
+    background-color: rosybrown !important;
 }
 
 .colortres {
-    background-color: #A03A3A;
+    background-color: #A03A3A !important;
 }
 
 .colorboton {
@@ -177,3 +166,31 @@ color: white !important;
     background-color: #F7D7D7;
 }
 
+.redesfooter {
+    border-radius: 19px;
+}
+
+.fondodivdos {
+    background-color: #2e2e2e !important;
+}
+
+.altura-card {
+    min-height: 715px;
+}
+
+.alineacionmenu {
+    flex-grow: 0 !important;
+}
+
+.menuitem {
+    color: white !important;
+}
+
+.fondomenu {
+    background-color: black !important;
+}
+
+.fondomenu :hover {
+    background-color:lightgrey !important;
+    color: black !important;
+}
