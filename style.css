@@ -105,7 +105,7 @@ head, body {
 }
 
 .contenedor-redes {
-    background-color: #CD5C5C !important;
+    background-color: #CD5C5C!important;
 }
 
 .colordos {
@@ -193,4 +193,12 @@ color: white !important;
 .fondomenu :hover {
     background-color:lightgrey !important;
     color: black !important;
+}
+
+.divquienessomos {
+    padding-left: 0 !important;
+}
+
+.img {
+    float: left;
 }
