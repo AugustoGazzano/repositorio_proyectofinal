@@ -205,4 +205,13 @@ color: white !important;
 
 .listafooter {
     text-decoration: none;
+    list-style-type: none;
+}
+
+.ubicacionlistas {
+    padding-left: 0rem !important;
+}
+
+.textofooter {
+    color: white;
 }
