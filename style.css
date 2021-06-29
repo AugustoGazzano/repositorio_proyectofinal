@@ -175,7 +175,7 @@ color: white !important;
 }
 
 .altura-card {
-    min-height: 715px;
+    min-height: 720px;
 }
 
 .alineacionmenu {
@@ -201,4 +201,8 @@ color: white !important;
 
 .img {
     float: left;
+}
+
+.listafooter {
+    text-decoration: none;
 }
