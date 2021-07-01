@@ -109,11 +109,15 @@ head, body {
 }
 
 .colordos {
-    background-color: rosybrown !important;
+    background-color: #cc4a4aa3 !important;
 }
 
 .colortres {
     background-color: #A03A3A !important;
+}
+
+.colorcuatro {
+    background-color: #c7747494;
 }
 
 .colorboton {
@@ -163,7 +167,7 @@ color: white !important;
   }
 
 .fondodiv {
-    background-color: #F7D7D7;
+    background-color: #A03A3A;
 }
 
 .redesfooter {
