@@ -105,19 +105,19 @@ head, body {
 }
 
 .contenedor-redes {
-    background-color: #cc4a4aa3 !important;
+    background-color: #e0444494 !important;
 }
 
 .colordos {
-    background-color: #cc4a4aa3 !important;
+    background-color: #e0444494 !important;
 }
 
 .colortres {
-    background-color: #A03A3A !important;
+    background-color: #e0444494 !important;
 }
 
 .colorcuatro {
-    background-color: #c7747494;
+    background-color: grey;
 }
 
 .colorboton {
@@ -175,7 +175,7 @@ color: white !important;
 }
 
 .fondodivdos {
-    background-color: #cc4a4aa3 !important;
+    background-color: black !important;
 }
 
 .altura-card {
@@ -218,4 +218,23 @@ color: white !important;
 
 .textofooter {
     color: white;
+}
+
+.textoclientes {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.logosclientes {
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.lineas {
+    text-decoration: none;
+}
+
+.ubiclientes {
+    display: flex;
 }
