@@ -238,3 +238,7 @@ color: white !important;
 .ubiclientes {
     display: flex;
 }
+
+.fondoservicios {
+    background-image: url(multimedia/servicios.png);
+}
