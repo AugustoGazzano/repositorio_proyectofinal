@@ -176,7 +176,7 @@ color: white !important;
 }
 
 .fondodivdos {
-    background-color: black !important;
+    background-color: #e0444494 !important;
 }
 
 .altura-card {
@@ -211,6 +211,8 @@ color: white !important;
 .listafooter {
     text-decoration: none;
     list-style-type: none;
+    text-align: center;
+    padding: 0;
 }
 
 .ubicacionlistas {
@@ -234,12 +236,15 @@ color: white !important;
 
 .lineas {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 .ubiclientes {
     display: flex;
 }
 
-.fondoservicios {
-    background-image: url(multimedia/servicios.png);
+.textoredes {
+    color: white;
+    text-align: right;
 }
