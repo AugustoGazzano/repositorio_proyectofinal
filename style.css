@@ -248,3 +248,17 @@ color: white !important;
     color: white;
     text-align: right;
 }
+
+.bordes {
+    border-radius: 10px;
+}
+
+.bordesimg {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.bordesimgdos {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
