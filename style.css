@@ -266,3 +266,8 @@ color: white !important;
 .fondomkt{
     background-color: black;
 }
+
+.imgnos {
+    display: flex;
+    justify-content: center;
+}
