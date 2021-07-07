@@ -271,3 +271,8 @@ color: white !important;
     display: flex;
     justify-content: center;
 }
+
+.pregs {
+    color: white !important;
+    background-color: black !important;
+}
